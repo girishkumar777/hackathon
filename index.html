@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Inlighn Tech - Transform Your Future with Tech Internships</title>
+    <meta name="title" content="Inlighn Tech - Transform Your Future with Tech Internships" />
+    <meta name="description" content="Gain real-world experience in Cybersecurity, Full Stack Development, and Data Science with industry experts at Inlighn Tech. Expert mentorship, certified programs, and career support." />
+    <meta name="keywords" content="internships, cybersecurity, full stack development, data science, tech careers, mentorship, certification" />
+    <meta name="author" content="Inlighn Tech" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://inlighntech.com/" />
+    <meta property="og:title" content="Inlighn Tech - Transform Your Future with Tech Internships" />
+    <meta property="og:description" content="Gain real-world experience in Cybersecurity, Full Stack Development, and Data Science with industry experts" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:site_name" content="Inlighn Tech" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://inlighntech.com/" />
+    <meta property="twitter:title" content="Inlighn Tech - Transform Your Future with Tech Internships" />
+    <meta property="twitter:description" content="Gain real-world experience in Cybersecurity, Full Stack Development, and Data Science with industry experts" />
+    <meta property="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:site" content="@inlighntech" />
+
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Performance and Security -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#1e293b" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Inlighn Tech",
+      "description": "Technology internship programs with expert mentorship",
+      "url": "https://inlighntech.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "WeWork Prestige Central, 36, 1, Church St",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "postalCode": "560001",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-98765-43210",
+        "contactType": "Customer Service",
+        "email": "info@skillupinterns.com"
+      },
+      "offers": [
+        {
+          "@type": "Course",
+          "name": "Cybersecurity Internship",
+          "description": "Comprehensive cybersecurity training program"
+        },
+        {
+          "@type": "Course", 
+          "name": "Full Stack Development Internship",
+          "description": "Complete web development training with modern frameworks"
+        },
+        {
+          "@type": "Course",
+          "name": "Data Science Internship", 
+          "description": "Machine learning and data analysis training program"
+        }
+      ]
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Focus visible polyfill for better accessibility -->
+    <script>
+      (function() {
+        'use strict';
+        
+        // Apply focus-visible polyfill
+        function applyFocusVisiblePolyfill(scope) {
+          var hadKeyboardEvent = true;
+          var keyboardThrottleTimeout = 0;
+          
+          function onPointerDown() {
+            hadKeyboardEvent = false;
+          }
+          
+          function onKeyDown(e) {
+            if (e.metaKey || e.altKey || e.ctrlKey) {
+              return;
+            }
+            hadKeyboardEvent = true;
+          }
+          
+          scope.addEventListener('keydown', onKeyDown, true);
+          scope.addEventListener('mousedown', onPointerDown, true);
+          scope.addEventListener('pointerdown', onPointerDown, true);
+          scope.addEventListener('touchstart', onPointerDown, true);
+        }
+        
+        applyFocusVisiblePolyfill(document);
+      })();
+    </script>
+  </body>
+</html>
